@@ -9,6 +9,10 @@
         background-color: $mainBlue;
         color: #fff;
     }
+    
+    &__icon {
+        margin-right: .5rem;
+    }
 }
 
 
