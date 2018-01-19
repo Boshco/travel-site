@@ -11,8 +11,13 @@
         top: 50%;
         transform: translateY(-50%);
         left: 0;
+        padding-top: 88px;
         text-align: center;
         width: 100%;
+        
+        @mixin atMedium {
+            padding-top: 60px;
+        }
     }
 
     &__title {
@@ -49,7 +54,6 @@
         @mixin atSmall {
             font-size: 1.875rem;
         }
-
     }
 
 }
